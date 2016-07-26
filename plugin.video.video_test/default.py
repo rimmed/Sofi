@@ -13,7 +13,7 @@ addon_handle = int(sys.argv[1])
 xbmcplugin.setContent(addon_handle, 'movies')
 
 html = urllib.urlopen(main_url + "films/" + url_detailed)
-soup = bs(html, 'html5lib', from_encoding="utf-8")
+soup = bs(html, 'html.parser', from_encoding="utf-8")
 content = soup.find_all("a", { "class" : "b-poster-detail__link" })
 for data in content:
 	li = xbmcgui.ListItem(data.span.span.img['alt'])
