@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.sofi" name="Sofi Kodi Add-ons repository" version="0.1" provider-name="rimmed">
    <extension point="xbmc.addon.repository" name="Sofi Kodi Add-ons repository">
-      <info compressed="false">https://github.com/rimmed/Sofi/addons.xml</info>
-      <checksum>https://github.com/rimmed/Sofi/addons.xml.md5</checksum>
+      <info compressed="false">https://github.com/rimmed/Sofi/raw/master/addons.xml</info>
+      <checksum>https://github.com/rimmed/Sofi/raw/master/addons.xml.md5</checksum>
       <datadir zip="true">https://github.com/rimmed/Sofi/</datadir>
    </extension>
    <extension point="xbmc.addon.metadata">
